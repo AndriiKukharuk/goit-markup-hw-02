@@ -1,6 +1,6 @@
 body {
-  background-color:var(--color-primary)
-  color:var(#212121)
+  background-color: #ffffff;
+  color: #212121;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -81,7 +81,7 @@ button:focus {
 }
 .feature-list .text {
   color: var(--color-link);
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -108,11 +108,11 @@ button:focus {
   letter-spacing: 0.03em;
 }
 .profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--color-link);
 }
 .team .text {
   color: var(--color-link);
@@ -132,17 +132,17 @@ button:focus {
 }
 
 .name-portfolio {
-  color: var(--color-secondary);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--color-secondary);
 }
 .filtr-name {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  color: var(--color-link);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
